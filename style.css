@@ -1,0 +1,33 @@
+
+.first-header{
+    display:flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.description{
+    width: 250px
+}
+.second-header{
+    display:flex;
+    margin-left: 330px;
+    gap: 250px;
+    height: 175px;
+    margin-bottom: 30px;
+}
+.part-one{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.part-two{
+    display: flex;
+    justify-content: space-evenly;
+}
