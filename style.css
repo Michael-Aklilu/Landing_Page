@@ -19,7 +19,7 @@ ul{
 }
 .second-header{
     display:flex;
-    margin-left: 330px;
+    margin-left: 300px;
     gap: 250px;
     height: 300px;
     margin-bottom: 30px;
@@ -27,7 +27,9 @@ ul{
 .part-one{
     display: flex;
     justify-content: center;
-    font-size: large;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 .part-two{
     display: flex;
@@ -39,33 +41,40 @@ ul{
 }
 .part-four{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     margin-top: 50px;
     margin-left: 500px;
-    width: 500px;
+    width: 700px;
     flex-wrap: wrap;
     margin-bottom: 100px;
 }
 .part-five{
     display: flex;
-    margin-left: 200px;
+    margin-left: 450px;
     width: 850px;
     justify-content: space-between;
     padding: 50px;
+    background-color: #3882f6;
+    border-radius: 5px 5px 5px 5px;
 }
 .first-part{
     display: flex;
     flex-wrap: wrap;
     width: 450px;
+    color:#E5E7EB; 
 }
 .footer{
     display: flex;
     justify-content: center;
     padding: 50px;
+    background-color: #1F2937;
+    margin-top: 100px;
+    color:#E5E7EB 
 }
 .header{
     background-color: #1F2937;
-    padding: 70px;
+    padding-bottom: 120px;
+    padding-top: 40px;
 }
 .description p{
     font-size: 18px;
@@ -80,4 +89,22 @@ button{
     background-color: #3882f6;
     color: #E5E7EB;
     font-size: 18px;
+    
+}
+.part-four p{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+.part-two img{
+    border-radius: 15px 15px 15px 15px;
+}
+.part-five button{
+    border: solid;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+}
+.header button{
+   border-radius: 10px 10px 10px 10px;
+   padding: 5px;
 }
