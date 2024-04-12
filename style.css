@@ -15,7 +15,7 @@ ul{
     list-style-type: none;
 }
 .description{
-    width: 250px
+    width: 300px
 }
 .second-header{
     display:flex;
@@ -38,6 +38,7 @@ ul{
 .part-three{
     display: flex;
     justify-content: space-evenly;
+    margin-left: 15px;
 }
 .part-four{
     display: flex;
@@ -60,8 +61,10 @@ ul{
 .first-part{
     display: flex;
     flex-wrap: wrap;
-    width: 450px;
+    width: 500px;
     color:#E5E7EB; 
+    font-size: 18px;
+
 }
 .footer{
     display: flex;
@@ -103,8 +106,31 @@ button{
     border: solid;
     border-radius: 5px 5px 5px 5px;
     padding: 5px;
+    width:120px;
 }
 .header button{
    border-radius: 10px 10px 10px 10px;
    padding: 5px;
+   width: 120px;
+}
+.Img-1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    margin-left: 35px;
+}
+.Img-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+}
+.Img-3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+}
+.Img-4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
 }
